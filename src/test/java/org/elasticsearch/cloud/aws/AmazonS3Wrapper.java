@@ -650,4 +650,122 @@ public class AmazonS3Wrapper implements AmazonS3 {
 					throws AmazonServiceException, AmazonClientException {
 		return delegate.getBucketReplicationConfiguration(getBucketReplicationConfigurationRequest);
 	}
+
+
+  @Override
+  public ListObjectsV2Result listObjectsV2(String bucketName) throws AmazonClientException, AmazonServiceException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public ListObjectsV2Result listObjectsV2(String bucketName, String prefix)
+      throws AmazonClientException, AmazonServiceException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public ListObjectsV2Result listObjectsV2(ListObjectsV2Request listObjectsV2Request)
+      throws AmazonClientException, AmazonServiceException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public HeadBucketResult headBucket(HeadBucketRequest headBucketRequest)
+      throws AmazonClientException, AmazonServiceException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public AccessControlList getObjectAcl(GetObjectAclRequest getObjectAclRequest)
+      throws AmazonClientException, AmazonServiceException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public String getObjectAsString(String bucketName, String key) throws AmazonServiceException, AmazonClientException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public PutObjectResult putObject(String bucketName, String key, String content)
+      throws AmazonServiceException, AmazonClientException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public void deleteBucketReplicationConfiguration(DeleteBucketReplicationConfigurationRequest request)
+      throws AmazonServiceException, AmazonClientException {
+    // TODO Auto-generated method stub
+    
+  }
+
+
+  @Override
+  public boolean doesObjectExist(String bucketName, String objectName)
+      throws AmazonServiceException, AmazonClientException {
+    // TODO Auto-generated method stub
+    return false;
+  }
+
+
+  @Override
+  public BucketAccelerateConfiguration getBucketAccelerateConfiguration(String bucket)
+      throws AmazonServiceException, AmazonClientException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public BucketAccelerateConfiguration getBucketAccelerateConfiguration(
+      GetBucketAccelerateConfigurationRequest getBucketAccelerateConfigurationRequest)
+      throws AmazonServiceException, AmazonClientException {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public void setBucketAccelerateConfiguration(String bucketName, BucketAccelerateConfiguration accelerateConfiguration)
+      throws AmazonServiceException, AmazonClientException {
+    // TODO Auto-generated method stub
+    
+  }
+
+
+  @Override
+  public void setBucketAccelerateConfiguration(
+      SetBucketAccelerateConfigurationRequest setBucketAccelerateConfigurationRequest)
+      throws AmazonServiceException, AmazonClientException {
+    // TODO Auto-generated method stub
+    
+  }
+
+
+  @Override
+  public com.amazonaws.services.s3.model.Region getRegion() {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+
+  @Override
+  public URL getUrl(String bucketName, String key) {
+    // TODO Auto-generated method stub
+    return null;
+  }
 }
